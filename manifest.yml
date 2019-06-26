@@ -1,0 +1,9 @@
+---
+applications:
+- name: spring-docs-feedback
+  host: spring-docs-feedback
+  memory: 1G
+  disk_quota: 1G
+  path: /Users/j/projects/feedback/target/feedback-0.0.1-SNAPSHOT.jar
+  services:
+  - mysql-spring-docs-feedback

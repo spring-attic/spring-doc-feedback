@@ -1,0 +1,9 @@
+.title {text-align: center; font-family: sans-serif}
+
+#buttonHolder, #filterHolder {text-align: center; margin-top: 10px; margin-bottom: 10px}
+
+#feedbackTable {margin:auto}
+
+tr: {margin-top: 2px; margin-bottom: 2px}
+tr:nth-child(even) {background: #CCC}
+tr:nth-child(odd) {background: #FFF}
