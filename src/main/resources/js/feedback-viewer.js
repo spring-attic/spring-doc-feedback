@@ -84,12 +84,16 @@ $(document).ready(function() {
     json = getData(json._links.last.href);
     loadData(json);
   }));
+  $("#exportButton").on("click", (function() {
+	  var projectName = $("#project").val();
+	  window.location = "http://spring-docs-feedback.cfapps.io/feedback/download/" + projectName;
+  }));
 
   // Project selector handler
   $("#project").on('change', function() {
     var projectName = this.value
     var link = "https://spring-docs-feedback.cfapps.io/feedback/search/findByProjectName?projectName=" + projectName;
-    if (projectName === "all") {
+    if (projectName === "All") {
       link = "https://spring-docs-feedback.cfapps.io/feedback";
     }
     json = getData(link);

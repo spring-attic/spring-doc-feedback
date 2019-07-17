@@ -41,8 +41,12 @@ public class Feedback {
     	dateString = "";
     	timestamp = 0L;
     }
+    
+    public long getId() {
+		return id;
+	}
 
-    public short getStarNumber() {
+	public short getStarNumber() {
 		return starNumber;
 	}
 

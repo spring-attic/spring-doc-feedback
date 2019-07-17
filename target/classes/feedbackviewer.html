@@ -1,0 +1,30 @@
+<html>
+	<head>
+		<link rel = "stylesheet" type = "text/css" href = "css/feedback.css" />
+		<script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
+		<script type="text/javascript" src="js/feedback-viewer.js"></script>
+	</head>
+	<body>
+		<h1 class="title">Spring Documentation Feedback Viewer</h1>
+		<div id="filterHolder">
+			<label for="project">Project Filter:</label>
+			<select id="project" name="cars">
+				<option value="Spring Framework">Spring Framework</option>
+				<option value="Spring Boot">Spring Boot</option>
+				<option value="Spring Batch">Spring Batch</option>
+				<option value="All">All</option>
+			</select>
+		</div>
+		<div id="feedbackHolder">
+		</div>
+		<div class="buttonHolder">
+			<button id="firstButton">First</button>
+			<button id="previousButton">Previous</button>
+			<button id="nextButton">Next</button>
+			<button id="lastButton">Last</button>
+		</div>
+		<div class="buttonHolder">
+			<button id="exportButton">Export selected project to CSV</button>
+		</div>
+	</body>
+</html>

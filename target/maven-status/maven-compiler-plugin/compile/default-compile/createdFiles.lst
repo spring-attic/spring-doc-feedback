@@ -1,0 +1,5 @@
+io/spring/docs/feedback/CsvExporter.class
+io/spring/docs/feedback/Feedback.class
+io/spring/docs/feedback/FeedbackRepository.class
+io/spring/docs/feedback/FeedbackApplication.class
+io/spring/docs/feedback/CsvExportController.class

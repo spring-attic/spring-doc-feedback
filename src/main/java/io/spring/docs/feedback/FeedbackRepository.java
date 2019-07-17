@@ -12,4 +12,5 @@ import org.springframework.web.bind.annotation.CrossOrigin;
 public interface FeedbackRepository extends PagingAndSortingRepository<Feedback, Long> {
 	List<Feedback> findByStarNumber(@Param("starNumber") short starNumber);
 	List<Feedback> findByProjectName(@Param("projectName") String projectName);
+	List<Feedback> findAll();
 }
