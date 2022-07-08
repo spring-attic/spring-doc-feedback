@@ -1,3 +1,5 @@
+# spring-doc-feedback is no longer actively maintained by VMware, Inc.
+
 # Spring Doc Feedback
 
 This project adds the ability to gather feedback from readers to the various Spring projects.
